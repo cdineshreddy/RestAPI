@@ -1,0 +1,17 @@
+{
+	"EmployeeStatus" : "Inactive" ,
+	"EmployeeResult" : [
+				{
+					"emp1" : 12,
+					"empName" : "anuj"
+				},
+				{
+					"emp2" : 13,
+					"empName" : "arjun"
+				},
+				{
+					"emp3" : 14,
+					"empName" : "ajay"
+				}
+			   ]
+}
