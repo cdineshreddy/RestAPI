@@ -1,7 +1,10 @@
 package RestAssuredPractice;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
+import io.restassured.http.Header;
+import io.restassured.http.Headers;
 import io.restassured.response.Response;
 
 public class FetchData {
@@ -24,6 +27,13 @@ public class FetchData {
 		//To fetch Actual content or Response Body
 		String completeResp = resp.asString();
 		System.out.println("Complete Response is: "+completeResp);
+		Assert.assertEquals(completeResp.contains("Dinesh Reddy"),true);
+		
+		//To fetch all the headers values
+		Headers all = resp.headers();
+		for(Header header:all) {
+			System.out.println(header.getName()+"--->"+header.getValue());
+		}
 		
 	}
 
