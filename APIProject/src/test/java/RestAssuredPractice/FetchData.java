@@ -5,14 +5,20 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
+import io.restassured.http.Method;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 
+@Test
 public class FetchData {
 	
-	@Test
 	public void getData() {
 		
-		Response resp = RestAssured.get("http://localhost:3000/posts");
+		//Response resp = RestAssured.get("http://localhost:3000/posts");
+		
+		RestAssured.baseURI="http://localhost:3000/posts";
+		RequestSpecification httpRequest = RestAssured.given();
+		Response resp = httpRequest.request(Method.GET);
 		
 		//To fetch status code for Request
 		int statusCode=resp.getStatusCode();
@@ -25,12 +31,13 @@ public class FetchData {
 		System.out.println("---------------------------------");
 		
 		//To fetch Actual content or Response Body
-		String completeResp = resp.asString();
+		String completeResp = resp.getBody().asString();
 		System.out.println("Complete Response is: "+completeResp);
 		Assert.assertEquals(completeResp.contains("Dinesh Reddy"),true);
+		System.out.println("-------------------------------------------------");
 		
 		//To fetch all the headers values
-		Headers all = resp.headers();
+		Headers all = resp.getHeaders();
 		for(Header header:all) {
 			System.out.println(header.getName()+"--->"+header.getValue());
 		}

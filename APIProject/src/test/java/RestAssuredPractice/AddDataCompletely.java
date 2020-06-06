@@ -21,7 +21,6 @@ public class AddDataCompletely {
 		jobj.put("author", "dinesh");
 		
 		
-		
 		String jsonobj = jobj.toJSONString();
 		req.body(jsonobj);
 		req.contentType(ContentType.JSON);

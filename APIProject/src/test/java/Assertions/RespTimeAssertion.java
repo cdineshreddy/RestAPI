@@ -12,11 +12,9 @@ public class RespTimeAssertion {
 	public void assertionTest() {
 		
 		 Response resp=given()
-		 .param("userId","7")
-		 .param("id","64")
-		 .pathParam("x", "posts")
-		 .when()
-		 .get("https://jsonplaceholder.typicode.com/{x}");
+				 .pathParam("x", "posts")
+				 .when()
+				 .get("https://jsonplaceholder.typicode.com/{x}");
 		 
 		 //By using TestNG
 		 long timeinMS= resp.time();

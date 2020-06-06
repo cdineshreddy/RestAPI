@@ -4,6 +4,7 @@ import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -13,10 +14,11 @@ public class AddData {
 	public void postData() {
 		
 		//Set the Precondition
+		RestAssured.baseURI="http://localhost:3000/posts";
 		RequestSpecification req = RestAssured.given();
 		
 		JSONObject jobj=new JSONObject();
-		jobj.put("id", 4);
+		jobj.put("id", 20);
 		jobj.put("title", "Test");
 		jobj.put("author", "Dinesh");
 		
@@ -26,7 +28,7 @@ public class AddData {
 		
 		//Apply Precondition
 		RequestSpecification sender = req.when();
-		Response resp = sender.post("http://localhost:3000/posts");
+		Response resp = sender.request(Method.POST);
 		
 		//To fetch status code for Request
 		int statusCode=resp.getStatusCode();
@@ -41,6 +43,7 @@ public class AddData {
 		//To fetch Actual content or Response Body
 		String completeResp = resp.asString();
 		System.out.println("Complete Response is: "+completeResp);
+		
 		
 	}
 

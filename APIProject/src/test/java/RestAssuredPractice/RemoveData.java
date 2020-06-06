@@ -10,7 +10,7 @@ public class RemoveData {
 	@Test
 	public void deletaData() {
 		
-		Response resp = RestAssured.delete("http://localhost:3000/posts/4");
+		Response resp = RestAssured.delete("http://localhost:3000/posts/20");
 		
 				//To fetch status code for Request
 				int statusCode=resp.getStatusCode();

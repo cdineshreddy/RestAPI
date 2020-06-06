@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3051" started-at="2020-05-25T17:49:13 IST" finished-at="2020-05-25T17:49:16 IST">
+  <suite name="Default suite" duration-ms="4087" started-at="2020-06-04T21:29:15 IST" finished-at="2020-06-04T21:29:19 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3051" started-at="2020-05-25T17:49:13 IST" finished-at="2020-05-25T17:49:16 IST">
-      <class name="JSONPath.FetchCountryCodeByName">
-        <test-method status="PASS" signature="codeByName()[pri:0, instance:JSONPath.FetchCountryCodeByName@47ef968d]" name="codeByName" duration-ms="3015" started-at="2020-05-25T17:49:13 IST" finished-at="2020-05-25T17:49:16 IST">
+    <test name="Default test" duration-ms="4087" started-at="2020-06-04T21:29:15 IST" finished-at="2020-06-04T21:29:19 IST">
+      <class name="Assertions.RespTimeAssertion">
+        <test-method status="PASS" signature="assertionTest()[pri:0, instance:Assertions.RespTimeAssertion@7791a895]" name="assertionTest" duration-ms="4000" started-at="2020-06-04T21:29:15 IST" finished-at="2020-06-04T21:29:19 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- codeByName -->
-      </class> <!-- JSONPath.FetchCountryCodeByName -->
+        </test-method> <!-- assertionTest -->
+      </class> <!-- Assertions.RespTimeAssertion -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
