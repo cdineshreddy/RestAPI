@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Assertions.BasicParam">
+      <class name="DataDriven.DataDrivenTest">
         <methods>
-          <include name="assertionTest"/>
+          <include name="createEmployess"/>
         </methods>
-      </class> <!-- Assertions.BasicParam -->
+      </class> <!-- DataDriven.DataDrivenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

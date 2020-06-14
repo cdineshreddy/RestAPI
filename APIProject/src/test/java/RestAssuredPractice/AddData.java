@@ -10,6 +10,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class AddData {
 	
+	@SuppressWarnings("unchecked")
 	@Test
 	public void postData() {
 		
@@ -25,7 +26,7 @@ public class AddData {
 		String jsonobj = jobj.toJSONString();
 		req.body(jsonobj);
 		req.contentType(ContentType.JSON);
-		
+				
 		//Apply Precondition
 		RequestSpecification sender = req.when();
 		Response resp = sender.request(Method.POST);

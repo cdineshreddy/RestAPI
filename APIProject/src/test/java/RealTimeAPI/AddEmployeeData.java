@@ -9,6 +9,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class AddEmployeeData {
 	
+	@SuppressWarnings("unchecked")
 	@Test
 	public void addEmployeeData() {
 		

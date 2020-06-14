@@ -9,9 +9,10 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-@Test
+
 public class FetchData {
 	
+	@Test
 	public void getData() {
 		
 		//Response resp = RestAssured.get("http://localhost:3000/posts");
@@ -31,6 +32,7 @@ public class FetchData {
 		System.out.println("---------------------------------");
 		
 		//To fetch Actual content or Response Body
+		//asString() method will convert JSON format to string
 		String completeResp = resp.getBody().asString();
 		System.out.println("Complete Response is: "+completeResp);
 		Assert.assertEquals(completeResp.contains("Dinesh Reddy"),true);
