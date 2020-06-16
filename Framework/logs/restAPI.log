@@ -1,0 +1,216 @@
+2020-06-15 22:46:11 INFO  EmployeeRestAPI:14 - Started fetching all the employee details
+2020-06-15 22:46:16 INFO  EmployeeRestAPI:54 - Checking the content length of the employee data
+2020-06-15 22:46:16 INFO  EmployeeRestAPI:56 - Content Length is==>595
+2020-06-15 22:46:16 INFO  EmployeeRestAPI:67 - Finished the Test case for Fetching the Employee details
+2020-06-15 22:47:37 INFO  EmployeeRestAPI:14 - Started fetching all the employee details
+2020-06-15 22:47:39 INFO  EmployeeRestAPI:54 - Checking the content length of the employee data
+2020-06-15 22:47:39 INFO  EmployeeRestAPI:56 - Content Length is==>595
+2020-06-15 22:47:39 INFO  EmployeeRestAPI:24 - Checking the Response body of the employees details
+2020-06-15 22:47:39 INFO  EmployeeRestAPI:26 - Response Body ==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-06-15 22:47:39 INFO  EmployeeRestAPI:42 - Checking the Response time
+2020-06-15 22:47:39 INFO  EmployeeRestAPI:44 - Response Time is ==>1051
+2020-06-15 22:47:39 INFO  EmployeeRestAPI:33 - Checking the Status code
+2020-06-15 22:47:39 INFO  EmployeeRestAPI:35 - Status Code is ==>200
+2020-06-15 22:47:39 INFO  EmployeeRestAPI:67 - Finished the Test case for Fetching the Employee details
+2020-06-15 22:49:12 INFO  EmployeeRestAPI:14 - Started fetching all the employee details
+2020-06-15 22:49:14 INFO  EmployeeRestAPI:24 - Checking the Response body of the employees details
+2020-06-15 22:49:14 INFO  EmployeeRestAPI:26 - Response Body ==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-06-15 22:49:14 INFO  EmployeeRestAPI:33 - Checking the Status code
+2020-06-15 22:49:14 INFO  EmployeeRestAPI:35 - Status Code is ==>200
+2020-06-15 22:49:14 INFO  EmployeeRestAPI:42 - Checking the Response time
+2020-06-15 22:49:14 INFO  EmployeeRestAPI:44 - Response Time is ==>1466
+2020-06-15 22:49:14 INFO  EmployeeRestAPI:54 - Checking the content length of the employee data
+2020-06-15 22:49:14 INFO  EmployeeRestAPI:56 - Content Length is==>595
+2020-06-15 22:49:14 INFO  EmployeeRestAPI:67 - Finished the Test case for Fetching the Employee details
+2020-06-15 23:00:26 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:00:36 INFO  EmployeeRestAPI:67 - Finished the test case of getting the single employee data
+2020-06-15 23:01:41 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:01:47 INFO  EmployeeRestAPI:67 - Finished the test case of getting the single employee data
+2020-06-15 23:03:28 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:03:34 INFO  EmployeeRestAPI:67 - Finished the test case of getting the single employee data
+2020-06-15 23:04:38 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:04:48 INFO  EmployeeRestAPI:67 - Finished the test case of getting the single employee data
+2020-06-15 23:06:35 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:06:45 INFO  EmployeeRestAPI:55 - Finished the test case of getting the single employee data
+2020-06-15 23:07:16 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:07:19 INFO  EmployeeRestAPI:55 - Finished the test case of getting the single employee data
+2020-06-15 23:09:29 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:09:32 INFO  EmployeeRestAPI:24 - {"status":"failed","message":"Oops! someting issue found to fetch record."}
+2020-06-15 23:09:32 INFO  EmployeeRestAPI:56 - Finished the test case of getting the single employee data
+2020-06-15 23:10:55 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:10:57 INFO  EmployeeRestAPI:24 - {"status":"failed","message":"Oops! someting issue found to fetch record."}
+2020-06-15 23:10:57 INFO  EmployeeRestAPI:56 - Finished the test case of getting the single employee data
+2020-06-15 23:11:49 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:11:52 INFO  EmployeeRestAPI:24 - {"status":"failed","message":"Oops! someting issue found to fetch record."}
+2020-06-15 23:11:52 INFO  EmployeeRestAPI:56 - Finished the test case of getting the single employee data
+2020-06-15 23:14:05 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:14:09 INFO  EmployeeRestAPI:24 - {"status":"failed","message":"Oops! someting issue found to fetch record."}
+2020-06-15 23:14:09 INFO  EmployeeRestAPI:56 - Finished the test case of getting the single employee data
+2020-06-15 23:15:38 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:15:41 INFO  EmployeeRestAPI:24 - {"status":"failed","message":"Oops! someting issue found to fetch record."}
+2020-06-15 23:15:41 INFO  EmployeeRestAPI:56 - Finished the test case of getting the single employee data
+2020-06-15 23:16:54 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:16:58 INFO  EmployeeRestAPI:24 - {"status":"failed","message":"Oops! someting issue found to fetch record."}
+2020-06-15 23:16:58 INFO  EmployeeRestAPI:56 - Finished the test case of getting the single employee data
+2020-06-15 23:17:47 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:17:50 INFO  EmployeeRestAPI:24 - {"status":"failed","message":"Oops! someting issue found to fetch record."}
+2020-06-15 23:17:50 INFO  EmployeeRestAPI:56 - Finished the test case of getting the single employee data
+2020-06-15 23:18:20 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:18:23 INFO  EmployeeRestAPI:24 - {"status":"failed","message":"Oops! someting issue found to fetch record."}
+2020-06-15 23:18:23 INFO  EmployeeRestAPI:56 - Finished the test case of getting the single employee data
+2020-06-15 23:34:05 INFO  EmployeeRestAPI:21 - Started the adding the new employee data
+2020-06-15 23:34:14 INFO  EmployeeRestAPI:59 - Sucessfully created the new employee data
+2020-06-15 23:36:26 INFO  EmployeeRestAPI:26 - Started the adding the new employee data
+2020-06-15 23:36:35 INFO  EmployeeRestAPI:64 - Sucessfully created the new employee data
+2020-06-15 23:38:34 INFO  EmployeeRestAPI:26 - Started the adding the new employee data
+2020-06-15 23:38:48 INFO  EmployeeRestAPI:64 - Sucessfully created the new employee data
+2020-06-15 23:45:39 INFO  EmployeeRestAPI:26 - Started the adding the new employee data
+2020-06-15 23:45:46 INFO  EmployeeRestAPI:63 - Sucessfully created the new employee data
+2020-06-15 23:47:44 INFO  EmployeeRestAPI:26 - Started the adding the new employee data
+2020-06-15 23:47:49 INFO  EmployeeRestAPI:63 - Sucessfully created the new employee data
+2020-06-15 23:50:50 INFO  EmployeeRestAPI:26 - Started the adding the new employee data
+2020-06-15 23:50:54 INFO  EmployeeRestAPI:63 - Sucessfully created the new employee data
+2020-06-15 23:54:52 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:54:57 INFO  EmployeeRestAPI:24 - Respone Body ==>{}
+2020-06-15 23:54:57 INFO  EmployeeRestAPI:56 - Finished the test case of getting the single employee data
+2020-06-15 23:55:37 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:55:42 INFO  EmployeeRestAPI:24 - Respone Body ==>{}
+2020-06-15 23:55:42 INFO  EmployeeRestAPI:50 - Finished the test case of getting the single employee data
+2020-06-15 23:56:44 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:56:49 INFO  EmployeeRestAPI:24 - Respone Body ==>{}
+2020-06-15 23:56:49 INFO  EmployeeRestAPI:50 - Finished the test case of getting the single employee data
+2020-06-15 23:57:11 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-15 23:57:16 INFO  EmployeeRestAPI:24 - Respone Body ==>{
+  "title": "QA",
+  "author": "Dinesh",
+  "salary": 10000,
+  "id": 22
+}
+2020-06-15 23:57:16 INFO  EmployeeRestAPI:50 - Finished the test case of getting the single employee data
+2020-06-15 23:59:05 INFO  EmployeeRestAPI:23 - Started the adding the new employee data
+2020-06-15 23:59:10 INFO  EmployeeRestAPI:56 - Sucessfully created the new employee data
+2020-06-16 00:08:59 INFO  EmployeeRestAPI:15 - Deleting an Employee record
+2020-06-16 00:10:41 INFO  EmployeeRestAPI:15 - Deleting an Employee record
+2020-06-16 00:12:51 INFO  EmployeeRestAPI:14 - Deleting an Employee record
+2020-06-16 00:13:54 INFO  EmployeeRestAPI:14 - Deleting an Employee record
+2020-06-16 00:20:10 INFO  EmployeeRestAPI:14 - Deleting an Employee record
+2020-06-16 00:22:32 INFO  EmployeeRestAPI:17 - Deleting an Employee record
+2020-06-16 00:23:03 INFO  EmployeeRestAPI:17 - Deleting an Employee record
+2020-06-16 00:23:07 INFO  EmployeeRestAPI:35 - Finished to delete an record
+2020-06-16 00:35:51 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 00:35:55 INFO  EmployeeRestAPI:23 - Started the adding the new employee data
+2020-06-16 00:35:59 INFO  EmployeeRestAPI:56 - Sucessfully created the new employee data
+2020-06-16 00:35:59 INFO  EmployeeRestAPI:13 - Deleting an Employee record
+2020-06-16 00:36:01 INFO  EmployeeRestAPI:30 - Finished to delete an record
+2020-06-16 00:42:12 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 00:42:17 INFO  EmployeeRestAPI:23 - Started the adding the new employee data
+2020-06-16 00:42:20 INFO  EmployeeRestAPI:56 - Sucessfully created the new employee data
+2020-06-16 00:42:20 INFO  EmployeeRestAPI:13 - Deleting an Employee record
+2020-06-16 00:42:22 INFO  EmployeeRestAPI:30 - Finished to delete an record
+2020-06-16 00:46:52 INFO  EmployeeRestAPI:14 - Started fetching all the employee details
+2020-06-16 00:46:54 INFO  EmployeeRestAPI:24 - Checking the Response body of the employees details
+2020-06-16 00:46:54 INFO  EmployeeRestAPI:26 - Response Body ==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-06-16 00:46:54 INFO  EmployeeRestAPI:33 - Checking the Status code
+2020-06-16 00:46:54 INFO  EmployeeRestAPI:35 - Status Code is ==>200
+2020-06-16 00:46:54 INFO  EmployeeRestAPI:42 - Checking the Response time
+2020-06-16 00:46:54 INFO  EmployeeRestAPI:44 - Response Time is ==>1479
+2020-06-16 00:46:54 INFO  EmployeeRestAPI:54 - Checking the content length of the employee data
+2020-06-16 00:46:54 INFO  EmployeeRestAPI:56 - Content Length is==>595
+2020-06-16 00:46:54 INFO  EmployeeRestAPI:67 - Finished the Test case for Fetching the Employee details
+2020-06-16 00:50:17 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 00:50:22 INFO  EmployeeRestAPI:23 - Started the adding the new employee data
+2020-06-16 00:50:25 INFO  EmployeeRestAPI:56 - Sucessfully created the new employee data
+2020-06-16 00:50:25 INFO  EmployeeRestAPI:13 - Deleting an Employee record
+2020-06-16 00:50:27 INFO  EmployeeRestAPI:30 - Finished to delete an record
+2020-06-16 00:52:06 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 00:52:11 INFO  EmployeeRestAPI:23 - Started the adding the new employee data
+2020-06-16 00:52:14 INFO  EmployeeRestAPI:56 - Sucessfully created the new employee data
+2020-06-16 00:52:14 INFO  EmployeeRestAPI:13 - Deleting an Employee record
+2020-06-16 00:52:16 INFO  EmployeeRestAPI:30 - Finished to delete an record
+2020-06-16 00:53:11 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 00:53:15 INFO  EmployeeRestAPI:23 - Started the adding the new employee data
+2020-06-16 00:53:19 INFO  EmployeeRestAPI:56 - Sucessfully created the new employee data
+2020-06-16 00:53:19 INFO  EmployeeRestAPI:13 - Deleting an Employee record
+2020-06-16 00:53:21 INFO  EmployeeRestAPI:30 - Finished to delete an record
+2020-06-16 00:53:47 INFO  EmployeeRestAPI:14 - Started fetching all the employee details
+2020-06-16 00:53:49 INFO  EmployeeRestAPI:24 - Checking the Response body of the employees details
+2020-06-16 00:53:49 INFO  EmployeeRestAPI:26 - Response Body ==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-06-16 00:53:49 INFO  EmployeeRestAPI:33 - Checking the Status code
+2020-06-16 00:53:49 INFO  EmployeeRestAPI:35 - Status Code is ==>200
+2020-06-16 00:53:49 INFO  EmployeeRestAPI:42 - Checking the Response time
+2020-06-16 00:53:49 INFO  EmployeeRestAPI:44 - Response Time is ==>1340
+2020-06-16 00:53:49 INFO  EmployeeRestAPI:54 - Checking the content length of the employee data
+2020-06-16 00:53:49 INFO  EmployeeRestAPI:56 - Content Length is==>595
+2020-06-16 00:53:49 INFO  EmployeeRestAPI:67 - Finished the Test case for Fetching the Employee details
+2020-06-16 00:54:26 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 00:54:31 INFO  EmployeeRestAPI:23 - Started the adding the new employee data
+2020-06-16 00:54:34 INFO  EmployeeRestAPI:56 - Sucessfully created the new employee data
+2020-06-16 00:54:34 INFO  EmployeeRestAPI:13 - Deleting an Employee record
+2020-06-16 00:54:37 INFO  EmployeeRestAPI:30 - Finished to delete an record
+2020-06-16 00:55:48 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 00:55:52 INFO  EmployeeRestAPI:23 - Started the adding the new employee data
+2020-06-16 00:55:56 INFO  EmployeeRestAPI:56 - Sucessfully created the new employee data
+2020-06-16 00:55:56 INFO  EmployeeRestAPI:13 - Deleting an Employee record
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:30 - Finished to delete an record
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:24 - Respone Body ==>{}
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:50 - Finished the test case of getting the single employee data
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:14 - Started fetching all the employee details
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:24 - Checking the Response body of the employees details
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:26 - Response Body ==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:33 - Checking the Status code
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:35 - Status Code is ==>200
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:42 - Checking the Response time
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:44 - Response Time is ==>245
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:54 - Checking the content length of the employee data
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:56 - Content Length is==>595
+2020-06-16 00:55:58 INFO  EmployeeRestAPI:67 - Finished the Test case for Fetching the Employee details
+2020-06-16 00:58:18 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 00:58:23 INFO  EmployeeRestAPI:24 - Respone Body ==>{
+  "title": "QA",
+  "author": "Dinesh",
+  "salary": 10000,
+  "id": 22
+}
+2020-06-16 00:58:23 INFO  EmployeeRestAPI:50 - Finished the test case of getting the single employee data
+2020-06-16 01:03:56 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 01:04:01 INFO  EmployeeRestAPI:23 - Started the adding the new employee data
+2020-06-16 01:04:04 INFO  EmployeeRestAPI:56 - Sucessfully created the new employee data
+2020-06-16 01:04:04 INFO  EmployeeRestAPI:13 - Deleting an Employee record
+2020-06-16 01:04:06 INFO  EmployeeRestAPI:30 - Finished to delete an record
+2020-06-16 01:04:06 INFO  EmployeeRestAPI:24 - Respone Body ==>{}
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:50 - Finished the test case of getting the single employee data
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:14 - Started fetching all the employee details
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:24 - Checking the Response body of the employees details
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:26 - Response Body ==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:33 - Checking the Status code
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:35 - Status Code is ==>200
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:42 - Checking the Response time
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:44 - Response Time is ==>592
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:54 - Checking the content length of the employee data
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:56 - Content Length is==>595
+2020-06-16 01:04:07 INFO  EmployeeRestAPI:67 - Finished the Test case for Fetching the Employee details
+2020-06-16 01:06:31 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 01:06:40 INFO  EmployeeRestAPI:23 - Started the adding the new employee data
+2020-06-16 01:06:43 INFO  EmployeeRestAPI:56 - Sucessfully created the new employee data
+2020-06-16 01:06:43 INFO  EmployeeRestAPI:13 - Deleting an Employee record
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:30 - Finished to delete an record
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:24 - Respone Body ==>{}
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:50 - Finished the test case of getting the single employee data
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:14 - Started fetching all the employee details
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:24 - Checking the Response body of the employees details
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:26 - Response Body ==>{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:33 - Checking the Status code
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:35 - Status Code is ==>200
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:42 - Checking the Response time
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:44 - Response Time is ==>242
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:54 - Checking the content length of the employee data
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:56 - Content Length is==>595
+2020-06-16 01:06:46 INFO  EmployeeRestAPI:67 - Finished the Test case for Fetching the Employee details
+2020-06-16 01:07:22 INFO  EmployeeRestAPI:14 - Getting the Single employee data
+2020-06-16 01:07:31 INFO  EmployeeRestAPI:24 - Respone Body ==>{
+  "title": "QA",
+  "author": "Dinesh",
+  "salary": 10000,
+  "id": 22
+}
+2020-06-16 01:07:31 INFO  EmployeeRestAPI:50 - Finished the test case of getting the single employee data

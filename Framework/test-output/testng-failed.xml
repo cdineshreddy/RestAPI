@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Framework]">
+  <listeners>
+    <listener class-name="Utilities.Listners"/>
+  </listeners>
+  <test thread-count="5" name="RestAssured(failed)">
+    <classes>
+      <class name="TestCases.GetSingleEmployeeData">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkResposeBody"/>
+          <include name="setUp"/>
+          <include name="getEmployeeData"/>
+        </methods>
+      </class> <!-- TestCases.GetSingleEmployeeData -->
+    </classes>
+  </test> <!-- RestAssured(failed) -->
+</suite> <!-- Failed suite [Framework] -->

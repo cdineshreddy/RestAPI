@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8896" started-at="2020-06-15T19:37:22Z" finished-at="2020-06-15T19:37:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8896" started-at="2020-06-15T19:37:22Z" finished-at="2020-06-15T19:37:31Z">
+      <class name="TestCases.GetSingleEmployeeData">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.GetSingleEmployeeData@1e88b3c]" name="setUp" is-config="true" duration-ms="76" started-at="2020-06-15T19:37:22Z" finished-at="2020-06-15T19:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getEmployeeData()[pri:0, instance:TestCases.GetSingleEmployeeData@1e88b3c]" name="getEmployeeData" is-config="true" duration-ms="8691" started-at="2020-06-15T19:37:22Z" finished-at="2020-06-15T19:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeData -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:TestCases.GetSingleEmployeeData@1e88b3c]" name="checkContentLength" duration-ms="18" started-at="2020-06-15T19:37:31Z" finished-at="2020-06-15T19:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:TestCases.GetSingleEmployeeData@1e88b3c]" name="checkResponseTime" duration-ms="4" started-at="2020-06-15T19:37:31Z" finished-at="2020-06-15T19:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:TestCases.GetSingleEmployeeData@1e88b3c]" name="checkStatusCode" duration-ms="6" started-at="2020-06-15T19:37:31Z" finished-at="2020-06-15T19:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:1, instance:TestCases.GetSingleEmployeeData@1e88b3c]" name="checkResposeBody" duration-ms="53" started-at="2020-06-15T19:37:31Z" finished-at="2020-06-15T19:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.GetSingleEmployeeData@1e88b3c]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-15T19:37:31Z" finished-at="2020-06-15T19:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.GetSingleEmployeeData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

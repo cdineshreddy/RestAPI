@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Framework">
+
+	<listeners>
+		<listener class-name="Utilities.Listners"></listener>
+	</listeners>
+	
+	<test name="RestAssured">
+
+		<classes>
+			
+			<class name="TestCases.GetSingleEmployeeData" />
+			<class name="TestCases.PostEmployeeData" />
+			<class name="TestCases.DeleteEmployeeData" />
+			<class name="TestCases.GetAllEmployees" />
+			
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
