@@ -11,8 +11,7 @@ import com.aventstack.extentreports.Status;
 public class ApplyListner implements ITestListener{
 
 	public void onStart(ITestContext context) {
-		System.out.println("*** Test Suite " 
-	+ context.getName() + " started ***");
+		System.out.println("*** Test Suite " 	+ context.getName() + " started ***");
 	}
 
 	public void onFinish(ITestContext context) {
@@ -22,10 +21,8 @@ public class ApplyListner implements ITestListener{
 	}
 
 	public void onTestStart(ITestResult result) {
-		System.out.println(("*** Running test method " 
-	+ result.getMethod().getMethodName() + "..."));
-		ExtentTestManager.startTest(result.getMethod()
-									.getMethodName());
+		System.out.println(("*** Running test method "+ result.getMethod().getMethodName() + "..."));
+		ExtentTestManager.startTest(result.getMethod().getMethodName());
 	}
 
 	public void onTestSuccess(ITestResult result) {

@@ -32,40 +32,44 @@ public class ApiConfig {
 		if(arr[0].equals("get"))
 		{
 			  resp = given()
-					 .param("userId", "7")
 					 .when()
 					 .get(arr[1]);
-		}else if(arr[0].equals("post"))
-		{
+			  
+		}else if(arr[0].equals("post")){
+			
 			String postObj = createJsonObject(arr[2]);
 			resp = given()
 			.contentType(ContentType.JSON)
 			.body(postObj)
 			.when()
 			.post(arr[1]);
-		}else if(arr[0].equals("patch"))
-		{
+			
+		}else if(arr[0].equals("patch")){
+			
 			String postObj = createJsonObject(arr[2]);
 			resp = given()
 			.contentType(ContentType.JSON)
 			.body(postObj)
 			.when()
 			.patch(arr[1]);
-		}else if(arr[0].equals("put"))
-		{
+			
+		}else if(arr[0].equals("put")){
+			
 			String postObj = createJsonObject(arr[2]);
 			resp = given()
 			.contentType(ContentType.JSON)
 			.body(postObj)
 			.when()
 			.put(arr[1]);
-		}else if(arr[0].equals("delete"))
-		{
+			
+		}else if(arr[0].equals("delete")){
+			
 			resp = delete(arr[1]);
 		}
 		return resp;
-		
 	}
+	
+	@SuppressWarnings("unchecked")
 	public String createJsonObject(String data)
 	{
 		JSONObject jobj = new JSONObject();

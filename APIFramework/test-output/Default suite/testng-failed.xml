@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.api.testScripts.getAllCountriesTest">
+      <class name="com.api.testScripts.AddNewDataTest">
         <methods>
-          <include name="fetchAllCountry"/>
+          <include name="addNewPost"/>
         </methods>
-      </class> <!-- com.api.testScripts.getAllCountriesTest -->
+      </class> <!-- com.api.testScripts.AddNewDataTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

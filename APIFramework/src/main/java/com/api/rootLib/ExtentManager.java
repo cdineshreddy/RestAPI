@@ -9,8 +9,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentManager {
 	private static ExtentReports extent;
-	private static String reportFileName = 
-			"Test-Execution-Report"+".html";
+	private static String reportFileName ="Test-Execution-Report"+".html";
 	
 	public static ExtentReports getInstance() {
 		if (extent == null)
@@ -26,6 +25,7 @@ public class ExtentManager {
 
 		ExtentHtmlReporter htmlReporter = new 
 	ExtentHtmlReporter("./TestReport/test-report"+currentTime+".html");
+		
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
 		htmlReporter.config().setChartVisibilityOnOpen(true);
 		htmlReporter.config().setTheme(Theme.DARK);
@@ -39,7 +39,7 @@ public class ExtentManager {
 		extent.attachReporter(htmlReporter);
 		//Set environment details
 		extent.setSystemInfo("OS", "Windows");
-		extent.setSystemInfo("AUT", "Gaurav");
+		extent.setSystemInfo("AUT", "Dinesh");
 
 		return extent;
 	}
